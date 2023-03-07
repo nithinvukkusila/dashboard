@@ -175,7 +175,20 @@ $box-shadow: rgba(0, 0, 0, 0.06);
     text-align: left;
     padding-left: 30px;
     border-bottom: 1px solid $border-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-icons {
+      display: flex;
+      gap: 30px;
+      margin-right: 40px;
+      img {
+        width: 30px;
+        height: auto;
+      }
+    }
   }
+  
   .user-details {
     height: 98vh;
     overflow: scroll;
