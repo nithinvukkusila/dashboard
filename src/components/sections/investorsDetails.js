@@ -1,5 +1,5 @@
 import CircularBar from "../circularBar/CircularBar"
-import Sips from "../../snippets/sips"
+import Sips from "../snippets/sips"
 import DetailsTable from "../DetailsTable"
 
 

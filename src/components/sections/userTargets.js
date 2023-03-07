@@ -1,7 +1,7 @@
 import React from "react";
 import { userData } from "../../userData";
 import CircularBar from "../circularBar/CircularBar";
-import Category from "../../snippets/category";
+import Category from "../snippets/category";
 const UserTargets = () => {
   const datasets = () => {
     let data = []

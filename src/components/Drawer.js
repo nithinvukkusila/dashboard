@@ -47,9 +47,7 @@ const Drawer = ({ isOpen, isDrawerOpen }) => {
         <img src={backArrow} alt="dashboard" />
       </button>
       <div className={`${isOpen ? "show" : "hide"} drawer`}>
-        <div className="close" onClick={isDrawerOpen}>
-          close
-        </div>
+      
         <div className="logo">
           <h1> LOGO </h1>
         </div>

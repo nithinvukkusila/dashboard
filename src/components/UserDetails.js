@@ -15,12 +15,12 @@ const UserDetails = ({ isDrawerOpen }) => {
          <img src={search} alt="search"></img>
          <img src={bell} alt="bell"></img>
          <img src={user} alt="user"></img>
+
         </div>
 
       </div>
       <div className="user-details">
         <div className="details">
-         
           <div className="container">
             <UserTargets />
             <Performance />

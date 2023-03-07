@@ -1,5 +1,5 @@
 import React from "react";
-import dots from "../images/dots.png";
+import dots from "../../images/dots.png";
 const Category = ({ user }) => {
   return (
     <div className="category primary-box" key={user.id}>

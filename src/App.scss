@@ -146,13 +146,6 @@ $box-shadow: rgba(0, 0, 0, 0.06);
       height: 100vh;
       z-index: 99;
       align-items: center;
-      .close {
-        display: block;
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        color: blue;
-      }
       .support {
         width: auto;
         button {
@@ -188,7 +181,7 @@ $box-shadow: rgba(0, 0, 0, 0.06);
       }
     }
   }
-  
+
   .user-details {
     height: 98vh;
     overflow: scroll;
@@ -598,16 +591,32 @@ $box-shadow: rgba(0, 0, 0, 0.06);
         }
       }
     }
-    @media only screen and (max-width: 767px) {
+  }
+
+  @media only screen and (max-width: 767px) {
+    z-index: 99999;
+
+    .user-details {
       display: block;
       height: auto;
-      .details {
-        width: auto;
-        padding-left: 0;
-        .toggle-arrow {
-          left: -40%;
-          margin-bottom: 10px;
+      margin-top: 20px;
+    }
+    .heading {
+      font-size: 10px;
+      .header-icons {
+        margin-right: 0;
+        width: 50%;
+        img {
+          width: 15%;
         }
+      }
+    }
+    .details {
+      width: auto;
+      padding-left: 0;
+      .toggle-arrow {
+        left: -40%;
+        margin-bottom: 10px;
       }
     }
   }
